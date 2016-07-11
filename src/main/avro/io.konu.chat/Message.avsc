@@ -1,0 +1,11 @@
+{"namespace": "io.konu.chat.model.avro",
+ "type": "record",
+ "name": "Message",
+ "fields": [
+    {"name": "id", "type": "string"},
+    {"name": "author", "type": "string"},
+    {"name": "ttl", "type": "int"},
+    {"name": "text", "type": "string"},
+    {"name": "createdDate", "type": {"type": "long", "logicalType": "timestamp-millis"}}
+ ]
+}
